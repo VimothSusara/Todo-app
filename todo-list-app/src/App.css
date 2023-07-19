@@ -88,7 +88,7 @@ h1 {
     color: #fff;
     background: linear-gradient(
         90deg,
-        darkOrange
+        darkOrange,
         rgb(254, 153, 29)
     );
 
@@ -100,8 +100,8 @@ h1 {
 .todo-row:nth-child(4n + 1) {
     background: linear-gradient(
         90deg, 
-        rgb(214, 3, 214),
-        rgb(193, 60, 193)
+        rgb(228, 20, 228),
+        rgb(220, 60, 220)
     );
 }
 
