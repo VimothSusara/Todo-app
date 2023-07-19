@@ -66,11 +66,11 @@ h1 {
 }
 
 .todo-input.edit {
-    border: 2px solid rgb(37, 135, 167);
+    border: 2px solid rgb(0, 255, 255);
 }
 
 .todo-button.edit {
-    background: darkcyan;
+    background: rgb(0, 255, 255);
     padding: 16px 22px;
 }
 
@@ -88,8 +88,8 @@ h1 {
     color: #fff;
     background: linear-gradient(
         90deg,
-        orange,
         darkOrange
+        rgb(254, 153, 29)
     );
 
     padding: 16px;
@@ -100,24 +100,24 @@ h1 {
 .todo-row:nth-child(4n + 1) {
     background: linear-gradient(
         90deg, 
-        purple,
-        rgb(67, 1, 67)
+        rgb(214, 3, 214),
+        rgb(193, 60, 193)
     );
 }
 
 .todo-row:nth-child(4n + 2) {
     background: linear-gradient(
         90deg, 
-        rgb(210, 47, 47),
-        rgb(141, 3, 3)
+        rgb(234, 37, 37),
+        rgb(222, 66, 66)
     );
 }
 
 .todo-row:nth-child(4n + 3) {
     background: linear-gradient(
         90deg,
-        green,
-        darkGreen
+        rgb(9, 240, 9),
+        rgb(77, 221, 77)
     );
 }
 
